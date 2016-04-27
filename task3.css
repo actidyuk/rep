@@ -19,7 +19,6 @@ ul li{
   margin-right: 5px;
 }
 .wrapper                  {
-  margin-top: 50px;
   width: 100%;
   height: 40px;
   background: #F8F8F8;
@@ -28,18 +27,10 @@ ul li{
 }
 .pag{
 position: absolute;
-  width: 600px;
-  height: 25px;
-/*  margin:auto;*/
-/*padding-top: 8px;*/
-/* top:8px;
- bottom: 0;*/
- margin: auto;
- top: 0;
- bottom: 0;
- left: 0;
- right: 0;
-
+ /* width: 600px;
+  margin:auto;
+padding-top: 8px;*/
+ 
 }
 .numbers a{
   border:1px solid #DDDDDD;
