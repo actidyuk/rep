@@ -27,8 +27,9 @@ ul li{
 .pag{
 
   width: 600px;
-  margin:0 auto;
-  padding-top: 8px;
+  margin:auto;
+padding-top: 8px;
+ 
 }
 .numbers a{
   border:1px solid #DDDDDD;
