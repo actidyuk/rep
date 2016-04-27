@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrapper{
+  margin-top: 10px;
+  background: #A64DFF;
+}
+ul{
+  height: 40px;
+  width: 900px;
+  margin: 0 auto;
+}
+ul li {
+  font: Economica;
+  font-weight: bold;
+  list-style-type: none;
+  display: inline-block; 
+padding-top: 9px;
+}
+ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+   outline: none;
+  color: white;
+  padding: 11px 15px;
+}
+ul li a:hover{
+  background: #EEEEEE;
+  color: #979897;
+}
