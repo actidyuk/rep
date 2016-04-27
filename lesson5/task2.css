@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family:  'Trebuchet MS',arial;
+}
+.header,.product,.botton {
+  text-transform: uppercase;
+}
+.header,.prise,.botton{
+  font-weight: bold;
+}
+.header,.product,.prise,.botton{
+  text-align: center;
+}
+.prising{
+  border: 4px solid #EE8129;
+  width: 295px;
+  margin: 50px 30%;
+  border-radius: 5px;
+  box-shadow: 0 0 5px grey;
+}
+.header {
+  background: #EE8129;
+  font-size: 24px;
+  color: white;
+  padding-top: 32px;
+  padding-bottom: 28px;
+}
+.product{
+  font-size: 24px;
+  color: #3E3F41;
+  padding-top: 23px;
+  padding-bottom: 18px;
+}
+.prise{
+  font-size: 72px;
+  color: #35495a;
+}
+.prise sup {
+  font-size: 22px;
+  vertical-align: top;
+
+}
+.prise sub{
+  font-size: 18px;
+  font-weight: normal;
+
+}
+.list {
+  font-size: 15px;
+  font-weight: normal;
+  color: #888c94;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 25px;
+  margin-bottom: 18px;
+
+}
+.list li{
+  list-style-type: none;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background:  #edf5fd;
+  margin-bottom: 1px;
+}
+
+.list li:nth-child(2n){
+  background: #f5f5f6;
+}
+.list li:before{
+  content: url(1.png);
+  padding-left: 35px;
+  padding-right: 15px;
+}
+.botton{
+  font-size: 14px;
+   margin-left: 15px;
+  margin-bottom: 32px;
+  background: #EE8129;
+  width: 265px;
+  height: 38px;
+  border-radius: 4px;
+  border-bottom: 2px solid #b3560b;
+
+}
+.botton a {
+  text-decoration: none;
+  color: white;
+  outline: none;
+  display: block;
+  padding:11px 74px;
+}
+.botton a:hover{
+  background: #b3560b;
+  border-radius: 4px;
+}
