@@ -14,14 +14,16 @@ ul li {
   font: Economica;
   font-weight: bold;
   list-style-type: none;
-  display: inline-block;
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 10px 15px;
-
+  display: inline-block; 
+padding-top: 9px;
 }
-ul li:hover{
+ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  padding: 11px 15px;
+}
+ul li a:hover{
   background: #EEEEEE;
   color: #979897;
 }
