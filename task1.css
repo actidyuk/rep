@@ -3,6 +3,7 @@
   margin: 0;
 }
 .wrapper{
+  margin-top: 10px;
   background: #A64DFF;
 }
 ul{
@@ -20,6 +21,7 @@ padding-top: 9px;
 ul li a {
   text-transform: uppercase;
   text-decoration: none;
+   outline: none;
   color: white;
   padding: 11px 15px;
 }
